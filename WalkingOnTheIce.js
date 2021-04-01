@@ -2,6 +2,11 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
 }
 
+let rs = 0;
+function mousePressed() {
+  rs += 1;
+}
+
 function draw() {
   background(81, 126, 148);
   randomSeed(rs);
@@ -34,9 +39,4 @@ function draw() {
   ellipse(300, 300, 400, 400);
   ellipse(500, 500, 200, 200);
   ellipse(600, 600, 100, 100);
-}
-
-let rs = 0;
-function mousePressed() {
-  rs += 1;
 }
