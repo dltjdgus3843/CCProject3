@@ -4,7 +4,7 @@ function setup() {
 
 function draw() {
   background(81, 126, 148);
-  randomSeed(0);
+  randomSeed(rs);
   
   let x, y, r;
   let delta = 100;
