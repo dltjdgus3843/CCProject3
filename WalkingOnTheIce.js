@@ -4,7 +4,7 @@ function setup() {
 
 function draw() {
   background(81, 126, 148);
-  randomSeed(rs);
+  randomSeed(0);
   
   let x, y, r;
   let delta = 100;
@@ -34,9 +34,4 @@ function draw() {
   ellipse(300, 300, 400, 400);
   ellipse(500, 500, 200, 200);
   ellipse(600, 600, 100, 100);
-}
-
-let rs = 0;
-function mousePressed() {
-  rs += 1;
 }
