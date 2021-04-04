@@ -38,6 +38,6 @@ function draw() {
   ellipse(600, 600, 100, 100);
 }
 
-function mouseClicked() {
+function mouseReleased() {
   rs += 1;
 }
